@@ -23,9 +23,10 @@ body{
     display: grid;
     display: block;
     text-decoration: none;
-    background-color: #666;
+    background-color: rgba(84, 84, 84, 0.92);
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 25px;
 }
 
 .main-header{
@@ -134,7 +135,9 @@ body{
 }
 
 #about .container .main-wrapper img{
-    padding: 1em;
+    margin: 1em;
+    padding: none;
+    border-radius: 5px;
 }
 
 #main-footer{
